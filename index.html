@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fullpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="assets/images/Gemini-logos_white.png" />
+    </div>
+    <ul id="menu">
+        <li data-menuanchor="gemini-home">
+            <a href="#gemini-home">Home</a>
+        </li>
+        <li data-menuanchor="gemini-description">
+            <a href="#gemini-description">What is Gemini?</a>
+        </li>
+        <li data-menuanchor="gemini-location">
+            <a href="#gemini-location">Location</a>
+        </li>
+        <li data-menuanchor="gemini-mythology">
+            <a href="#gemini-mythology">Mythology</a>
+        </li>
+        <li data-menuanchor="gemini-visualizations">
+            <a href="#gemini-visualizations">Visualizations</a>
+        </li>
+        <li data-menuanchor="questions">
+            <a href="#questions">Questions</a>
+        </li>
+    </ul>
+
+    <div id="pages">
+        <div class="gemini-home section">
+            <h1>GEMINI</h1>
+        </div>
+
+        <div class="gemini-description section">
+            <div class="p1">
+                <h1>What is Gemini?</h1>
+            </div>
+            <div class="p2">
+                <p>Gemini is one of the constellations of the zodiac and is located in the northern celestial
+                    hemisphere. It was one of the 48 constellations described by the 2nd century AD astronomer Ptolemy,
+                    and it remains one of the 88 modern constellations today. Its name is Latin for twins, and it is
+                    associated with the twins Castor and Pollux in Greek mythology. Its old astronomical symbol is
+                    Gemini symbol (♊︎). </p>
+            </div>
+        </div>
+
+        <div class="gemini-location section">
+            <div class="p1">
+                <h1>Location</h1>
+            </div>
+            <div class="p2">
+                <p>Gemini lies between Taurus to the west and Cancer to the east, with Auriga and Lynx to the north,
+                    Monoceros and Canis Minor to the south and Orion to the south-west.
+
+                    In classical antiquity, Cancer was the location of the Sun on the first day of summer (June 21).
+                    During the first century AD, axial precession shifted it into Gemini. In 1990, the location of the
+                    Sun on the first day of summer moved from Gemini into Taurus, where it will remain until the 27th
+                    century AD and then move into Aries. The Sun will move through Gemini from June 21 to July 20
+                    through 2062.
+                </p>
+            </div>
+        </div>
+
+        <div class="gemini-mythology section">
+            <div class="p1">
+                <h1>Mythology</h1>
+            </div>
+            <div class="p2">
+                <p>
+                    In Babylonian astronomy, the stars Castor and Pollux were known as the Great Twins. The Twins were
+                    regarded as minor gods and were called Meshlamtaea and Lugalirra, meaning respectively 'The One who
+                    has arisen from the Underworld' and the 'Mighty King'. Both names can be understood as titles of
+                    Nergal, the major Babylonian god of plague and pestilence, who was king of the Underworld.
+                </p>
+            </div>
+        </div>
+
+        <div class="gemini-visualizations section">
+            <div class="p1">
+                <h1>Visualizations</h1>
+            </div>
+            <div class="p2">
+                <p>
+                    Gemini is dominated by Castor and Pollux, two bright stars that appear relatively very closely
+                    together
+                    forming an o shape, encouraging the mythological link between the constellation and twinship. The
+                    twin
+                    above and to the right (as seen from the Northern Hemisphere) is Castor, whose brightest star is α
+                    Gem;
+                    it is a second-magnitude star and represents Castor's head. The twin below and to the left is
+                    Pollux,
+                    whose brightest star is β Gem (more commonly called Pollux); it is of the first magnitude and
+                    represents
+                    Pollux's head. Furthermore, the other stars can be visualized as two parallel lines descending from
+                    the
+                    two main stars, making it look like two figures.
+                </p>
+            </div>
+        </div>
+
+        <div class="questions section">
+            <h1 align="center">Have questions?</h1>
+            <form>
+                <input type="text" placeholder="Your name" />
+                <input type="text" placeholder="Your e-mail address" />
+                <textarea placeholder="Your question"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/fullpage.js"></script>
+    <script>
+        new fullpage('#pages', {
+            menu: '#menu',
+            anchors: ['gemini-home', 'gemini-description', 'gemini-location', 'gemini-mythology', 'gemini-visualizations', 'questions']
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#menu {
+    position: fixed;
+    padding: 0px;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 23px;
+}
+
+#menu li {
+    padding: 10px 20px;
+}
+
+#menu li a {
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 3;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.gemini-home {
+    background: url("../images/background4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gemini-home h1 {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    text-transform: capitalize;
+}
+
+.gemini-description {
+    background: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gemini-description div {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.p1 {
+    font-size: 35px;
+}
+
+.p2 {
+    font-size: 23px;
+}
+
+
+
+.gemini-mythology div {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gemini-location div {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gemini-visualizations div {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gemini-location {
+    background: url("../images/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.gemini-mythology {
+    background: url("../images/background3.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.gemini-visualizations {
+    background: url("../images/background5.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.questions {
+    background: url("../images/background6.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.questions form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.questions input,
+.questions textarea {
+    font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
